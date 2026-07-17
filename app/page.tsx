@@ -5,7 +5,9 @@ import styles from "./page.module.css";
 export default function Home() {
   return (
     <PageContainer>
-      <h1 className={styles.title}>{home.title}</h1>
+      <h1 className={styles.title}>
+        {home.headline}
+      </h1>
 
       <p className={styles.subtitle}>
         {home.subtitle}
@@ -14,6 +16,10 @@ export default function Home() {
       <p className={styles.introduction}>
         {home.introduction}
       </p>
+
+      <a href="#work" className={styles.scrollCue}>
+        Selected Work ↓
+      </a>
     </PageContainer>
   );
 }

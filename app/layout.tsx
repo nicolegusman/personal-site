@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Montserrat } from "next/font/google";
+import Navigation from "@/components/Navigation";
 import "./globals.css";
 
 const montserrat = Montserrat({
@@ -10,7 +11,7 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   title: "Nico Gusman | UX Researcher",
   description:
-    "Helping organizations better understand people so they can make better decisions.",
+    "Helping organizations better understand people to make better decisions.",
 };
 
 export default function RootLayout({
@@ -20,7 +21,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${montserrat.variable} antialiased`}>
-      <body>{children}</body>
+      <body>
+  <Navigation />
+  {children}
+</body>
     </html>
   );
 }

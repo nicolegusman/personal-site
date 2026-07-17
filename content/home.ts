@@ -1,11 +1,10 @@
 export const home = {
-  title: "Nico Gusman",
+  headline:
+    "Helping organizations better understand people, so they can make better decisions",
 
-  subtitle: "UX Research • Product & Service Design • Strategy",
-
-  tagline:
-    "Helping organizations make better decisions through understanding people.",
+  subtitle:
+    "Research-driven strategy • Product & service design",
 
   introduction:
-    "Over the past decade, I've helped organizations across technology, healthcare, and social innovation better understand the people they serve — and translate those insights into better products and organizational decisions.",
+    "Over the past decade, I've helped organizations across technology, healthcare, and social innovation better understand the people they serve — and translate those insights into better product and organizational decisions.",
 };
