@@ -1,36 +1,17 @@
 import PageContainer from "@/components/PageContainer";
 import { home } from "@/content/home";
+import styles from "./page.module.css";
 
 export default function Home() {
   return (
     <PageContainer>
-      <h1
-        style={{
-          fontSize: "3.25rem",
-          fontWeight: 600,
-          marginBottom: "0.75rem",
-        }}
-      >
-        {home.title}
-      </h1>
+      <h1 className={styles.title}>{home.title}</h1>
 
-      <p
-        style={{
-          fontSize: "1.35rem",
-          color: "var(--text-muted)",
-          marginBottom: "2rem",
-        }}
-      >
+      <p className={styles.subtitle}>
         {home.subtitle}
       </p>
 
-      <p
-        style={{
-          fontSize: "1.15rem",
-          lineHeight: 1.8,
-          maxWidth: "42rem",
-        }}
-      >
+      <p className={styles.introduction}>
         {home.introduction}
       </p>
     </PageContainer>
