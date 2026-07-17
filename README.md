@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Personal Portfolio
 
-## Getting Started
+A custom portfolio website built with Next.js, TypeScript, and Tailwind CSS.
 
-First, run the development server:
+This website showcases selected UX research work across technology, healthcare, and community innovation. It is intentionally designed to prioritize clarity, readability, and thoughtful storytelling over visual novelty.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Why This Project Exists
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This portfolio is an extension of how I work.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+My goal isn't to impress visitors with flashy interactions or visual effects. It's to create a space where thoughtful work is easy to understand, enjoyable to explore, and reflects the same curiosity, clarity, and care that I try to bring to research itself.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## Design Principles
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+This website is guided by a small set of principles:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Content comes before decoration.
+- Every page should feel like a conversation with one thoughtful person.
+- Generous whitespace improves readability.
+- Motion should support comprehension, never distract from it.
+- Components should be reusable, simple, and easy to maintain.
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Technology
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Next.js
+- React
+- TypeScript
+- Tailwind CSS
+- Git & GitHub
+
+---
+
+## Planned Site Structure
+
+- Home
+- Work
+- About
+- Curious About
+- Contact
+
+---
+
+## Project Philosophy
+
+The site separates **content** from **presentation** whenever possible.
+
+Content is stored independently from layout so future updates feel more like editing a document than rewriting code.
+
+Each meaningful milestone is committed separately to Git so the project's evolution remains easy to understand.
+
+---
+
+## Status
+
+🚧 Currently under active development.
