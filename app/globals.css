@@ -1,26 +1,92 @@
 @import "tailwindcss";
 
+/* ==========================================================
+   Design Tokens
+   ========================================================== */
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Colors */
+  --background: #f8f5f1;
+  --surface: #fcfaf8;
+
+  --text: #2f2f2f;
+  --text-muted: #66635f;
+
+  --accent: #b86f53;
+
+  --border: #e5dfd8;
+
+  /* Layout */
+  --max-width: 680px;
+
+  /* Radius */
+  --radius: 10px;
 }
+
+/* ==========================================================
+   Tailwind Theme Mapping
+   ========================================================== */
 
 @theme inline {
   --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-surface: var(--surface);
+
+  --color-text: var(--text);
+  --color-text-muted: var(--text-muted);
+
+  --color-accent: var(--accent);
+
+  --color-border: var(--border);
+
+  --font-sans: var(--font-sans);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* ==========================================================
+   Global Reset
+   ========================================================== */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
+  margin: 0;
+
   background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  color: var(--text);
+
+  font-family: var(--font-sans);
+
+  font-size: 18px;
+  line-height: 1.65;
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ==========================================================
+   Images
+   ========================================================== */
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+
+  border-radius: var(--radius);
+}
+
+/* ==========================================================
+   Links
+   ========================================================== */
+
+a {
+  color: inherit;
+  text-decoration: none;
 }
