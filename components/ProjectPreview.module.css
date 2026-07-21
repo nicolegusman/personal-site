@@ -1,0 +1,58 @@
+.project {
+  padding: 4rem 0;
+}
+
+.project + .project {
+  border-top: 1px solid rgba(47, 47, 47, 0.08);
+}
+
+.title {
+  margin: 0 0 1rem 0;
+
+  font-size: 2.1rem;
+  font-weight: 500;
+
+  line-height: 1.2;
+
+  color: rgba(47, 47, 47, 0.88);
+}
+
+.subtitle {
+  max-width: 40rem;
+
+  margin: 0 0 1.75rem 0;
+
+  font-size: 1.1rem;
+
+  line-height: 1.75;
+}
+
+.meta {
+  display: flex;
+
+  gap: 0.5rem;
+
+  margin-bottom: 1.5rem;
+
+  font-size: 0.95rem;
+
+  color: var(--text-muted);
+}
+
+.link {
+  display: inline-block;
+
+  color: var(--accent);
+
+  font-weight: 500;
+
+  transition:
+    color 180ms ease,
+    transform 180ms ease;
+}
+
+.link:hover {
+  color: var(--text);
+
+  transform: translateX(4px);
+}

@@ -1,0 +1,67 @@
+.project {
+  padding: 4rem 0;
+}
+
+.project + .project {
+  border-top: 1px solid rgba(47, 47, 47, 0.08);
+}
+
+.title {
+  margin: 0 0 1rem 0;
+
+  font-size: 2.15rem;
+  font-weight: 500;
+
+  line-height: 1.2;
+
+  color: rgba(47, 47, 47, 0.9);
+}
+
+.subtitle {
+  max-width: 40rem;
+
+  margin: 0 0 1.5rem 0;
+
+  font-size: 1.1rem;
+
+  line-height: 1.75;
+
+  color: var(--text);
+}
+
+.meta {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+
+  gap: 0.5rem;
+
+  margin: 0 0 1.5rem 0;
+
+  font-size: 0.95rem;
+
+  color: var(--text-muted);
+}
+
+.separator {
+  opacity: 0.55;
+}
+
+.link {
+  display: inline-block;
+
+  color: var(--accent);
+
+  font-size: 0.98rem;
+  font-weight: 500;
+
+  transition:
+    color 180ms ease,
+    transform 180ms ease;
+}
+
+.link:hover {
+  color: var(--text);
+
+  transform: translateX(4px);
+}

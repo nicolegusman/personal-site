@@ -1,0 +1,77 @@
+.snapshot {
+  margin: 0 0 7rem;
+}
+
+.kicker {
+  margin: 0 0 2rem;
+
+  color: var(--text-muted);
+
+  font-size: 0.9rem;
+
+  font-weight: 600;
+
+  letter-spacing: 0.08em;
+
+  text-transform: uppercase;
+}
+
+.grid {
+  display: grid;
+
+  gap: 3rem;
+}
+
+.item {
+  display: grid;
+
+  gap: 0.6rem;
+}
+
+.item dt {
+  color: var(--text-muted);
+
+  font-size: 0.9rem;
+
+  font-weight: 500;
+
+  letter-spacing: 0.03em;
+
+  text-transform: uppercase;
+}
+
+.item dd {
+  margin: 0;
+
+  font-size: 1.15rem;
+
+  line-height: 1.8;
+}
+
+.methods {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.6rem;
+}
+
+.method {
+  display: inline-flex;
+  align-items: center;
+
+  padding: 0.35rem 0.75rem;
+
+  font-size: 0.82rem;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+
+  color: #555;
+
+  background: #f3f3f3;
+
+  border: 1px solid #e3e3e3;
+
+  border-radius: 999px;
+
+  white-space: nowrap;
+}

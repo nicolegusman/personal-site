@@ -10,10 +10,9 @@ export default function Navigation() {
         </Link>
 
         <div className={styles.links}>
-          <Link href="/">Work</Link>
-          <Link href="/">Approach</Link>
-          <Link href="/">Interests</Link>
-          <Link href="/">Contact</Link>
+          <Link href="/work">Work</Link>
+          <Link href="/approach">Approach</Link>
+          <Link href="/contact">Contact</Link>
         </div>
       </nav>
     </header>

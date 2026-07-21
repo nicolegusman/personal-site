@@ -1,0 +1,71 @@
+.article {
+  max-width: 46rem;
+}
+
+.hero {
+  margin-bottom: 5rem;
+}
+
+.title {
+  font-size: clamp(3rem, 6vw, 4.8rem);
+
+  line-height: 1;
+
+  letter-spacing: -0.04em;
+
+  margin-bottom: 2rem;
+}
+
+.introduction {
+  max-width: 40rem;
+
+  display: grid;
+  gap: 1.5rem;
+
+  font-size: 1.1rem;
+
+  line-height: 1.85;
+}
+
+.introduction p {
+  margin: 0;
+}
+
+.details {
+  display: grid;
+  gap: 2.5rem;
+
+  margin-top: 4rem;
+}
+
+.item h2 {
+  margin: 0 0 0.5rem;
+
+  font-size: 0.8rem;
+
+  letter-spacing: 0.12em;
+
+  text-transform: uppercase;
+
+  color: var(--text-muted);
+}
+
+.item a {
+  font-size: 1.05rem;
+
+  text-decoration: none;
+
+  color: inherit;
+}
+
+.item a:hover {
+  text-decoration: underline;
+}
+
+.updated {
+  margin-top: 5rem;
+
+  font-size: 0.9rem;
+
+  color: var(--text-muted);
+}

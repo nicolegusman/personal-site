@@ -17,9 +17,11 @@ export default function Home() {
         {home.introduction}
       </p>
 
-      <a href="#work" className={styles.scrollCue}>
-        Selected Work ↓
-      </a>
+      <a href="/work" className={styles.scrollCue}>
+  <span>Selected Work</span>
+  <span className={styles.arrow}>↓</span>
+</a>
+
     </PageContainer>
   );
 }

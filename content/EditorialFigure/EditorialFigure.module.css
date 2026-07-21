@@ -1,0 +1,26 @@
+$.figure {
+  margin: 5rem 0;
+}
+
+.imageWrapper {
+  overflow: hidden;
+  border-radius: 20px;
+  background: #f4f2ef;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.caption {
+  max-width: 42rem;
+
+  margin-top: 1rem;
+
+  color: var(--color-text-secondary);
+
+  font-size: 0.95rem;
+  line-height: 1.7;
+}
