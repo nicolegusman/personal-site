@@ -54,7 +54,7 @@ const ucsfProject = {
 
   sections: [
     {
-      title: "Challenge",
+      title: "The Challenge",
 
       body: (
         <>

@@ -28,7 +28,7 @@ export default function ApproachFramework() {
         <p className={styles.kicker}>HOW I WORK</p>
 
         <h2 className={styles.title}>
-          Making research usable often requires more than a solid research plan.
+         " Why? So What? Now What? "
         </h2>
 
         <p className={styles.intro}>

@@ -1,5 +1,5 @@
 .section {
-  margin-bottom: 9rem;
+  margin-bottom: 5.75rem;
 }
 
 .section:last-child {
@@ -9,11 +9,11 @@
 .header {
   position: relative;
 
-  max-width: 42rem;
+  max-width: 38rem;
 
-  margin-bottom: 2.75rem;
+  margin-bottom: 2.25rem;
 
-  padding-top: 2.25rem;
+  padding-top: 1.5rem;
 }
 
 .header::before {
@@ -48,17 +48,17 @@
 }
 
 .body {
-  max-width: 42rem;
+  max-width: 38rem;
 }
 
 .body p {
-  margin: 0 0 1.75rem;
+  margin: 0 0 1.5rem;
 
   color: var(--text);
 
   font-size: 1.1rem;
 
-  line-height: 1.9;
+  line-height: 1.85;
 }
 
 .body p:last-child {
@@ -73,24 +73,26 @@
   font-style: italic;
 }
 
-/* Editorial pull quote */
+/* ------------------------------------
+   Editorial pull quote
+------------------------------------- */
 
 .body blockquote {
-  width: min(48rem, calc(100vw - 4rem));
+  width: 100%;
+  max-width: 38rem;
 
-  margin: 5rem 0 5rem 50%;
-  padding: 0 0 0 2rem;
+  margin: 3.75rem 0;
 
-  transform: translateX(-50%);
+  padding: 0.25rem 0 0.25rem 2rem;
 
   border-left: 3px solid var(--accent);
 
   color: var(--text);
 
-  font-size: clamp(1.75rem, 3.5vw, 2.6rem);
+  font-size: clamp(1.75rem, 3.25vw, 2.45rem);
   font-weight: 500;
 
-  line-height: 1.3;
+  line-height: 1.28;
 
   letter-spacing: -0.03em;
 
@@ -100,21 +102,35 @@
 .body blockquote p {
   margin: 0;
 
+  color: inherit;
+
   font: inherit;
 
   line-height: inherit;
 }
 
+/* ------------------------------------
+   Responsive layout
+------------------------------------- */
+
 @media (max-width: 700px) {
   .section {
-    margin-bottom: 6.5rem;
+    margin-bottom: 4.5rem;
   }
 
   .header {
-    margin-bottom: 2.25rem;
+    max-width: none;
+
+    margin-bottom: 1.75rem;
+
+    padding-top: 1.25rem;
   }
 
   .title {
+    max-width: none;
+  }
+
+  .body {
     max-width: none;
   }
 
@@ -126,11 +142,11 @@
 
   .body blockquote {
     width: 100%;
+    max-width: none;
 
-    margin: 3.75rem 0;
+    margin: 3rem 0;
+
     padding-left: 1.25rem;
-
-    transform: none;
 
     font-size: clamp(1.55rem, 8vw, 2.1rem);
   }

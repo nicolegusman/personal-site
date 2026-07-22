@@ -11,7 +11,7 @@ const approach = {
       <p>
         People usually make sense once we understand their goals, constraints,
         relationships, and everyday lives. I help organizations build that
-        understanding and turn it into decisions people can confidently act on.
+        understanding and help turn it into more confident decisons.
       </p>
     </>
   ),

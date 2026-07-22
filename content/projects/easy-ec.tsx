@@ -50,7 +50,7 @@ introduction: (
 
   sections: [
     {
-      title: "Challenge",
+      title: "The Challenge",
 
       body: (
         <>

@@ -48,7 +48,7 @@ const metaProject = {
 
   sections: [
     {
-      title: "Challenge",
+      title: "The Challenge",
 
       body: (
         <>
@@ -61,8 +61,8 @@ const metaProject = {
           <p>
             While product metrics could reveal <strong>what</strong> people
             were doing, my role was to uncover <strong>why</strong> they were
-            doing it and translate those insights into decisions teams could
-            act on.
+            doing it and translate those insights into practical recommendations that teams
+            could act on.
           </p>
         </>
       ),
@@ -80,7 +80,7 @@ const metaProject = {
           </p>
 
           <blockquote>
-            Metrics could tell us what people did. Research helped us
+            Metrics told us what people were doing. Qualitative research helped us
             understand why it mattered.
           </blockquote>
 
