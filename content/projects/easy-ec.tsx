@@ -18,31 +18,32 @@ const easyEcProject = {
   title: "Helping Young People Navigate Reproductive Healthcare",
 
   subtitle:
-  "Founding a nonprofit that transformed user research into a more accessible reproductive healthcare service.",
+    "Building a nonprofit, digital platform, and service model around the realities of accessing emergency contraception.",
 
-introduction: (
+  introduction: (
     <>
       <p>
-        Many young people weren't struggling because emergency contraception
-        didn't exist. They were struggling because accessing it was often
-        confusing.
+        While working as a health educator, I realized that the young people weren&apos;t struggling because emergency
+        contraception resources didn&apos;t exist. They were struggling because finding
+        and accessing it could be confusing, expensive, and time-sensitive.
       </p>
 
       <p>
-        Insurance. Confidentiality. Transportation. Pharmacy hours.
-        Eligibility. Cost. Complex regulations. The information existed, but
-        navigating it often felt impossible within the narrow window when
-        emergency contraception is most effective.
+        Insurance, confidentiality, transportation, pharmacy hours, eligibility,
+        cost, and complex regulations all shaped what someone could realistically
+        do next.
       </p>
 
       <p>
-        I initially created a paper tool to help students, counselors, and
-        health educators navigate these situations. As more people began relying
-        on it, I realized the opportunity wasn't improving the handout—it was
-        redesigning the entire experience.
+        I initially created a paper guide to help students, counselors, and
+        health educators navigate those decisions. As more people began relying
+        on it, I realized the opportunity wasn&apos;t simply to improve the
+        handout.
       </p>
 
-      <p>That insight became Easy EC.</p>
+      <p>
+        <strong>It was to redesign the experience around people&apos;s real lives.</strong>
+      </p>
     </>
   ),
 
@@ -50,181 +51,147 @@ introduction: (
 
   sections: [
     {
-      title: "The Challenge",
+      title: "Challenge",
 
       body: (
         <>
           <p>
-            Young people often faced barriers that had little to do with
+            Young people faced barriers that had little to do with the
             healthcare itself.
           </p>
 
           <p>
-            Many didn't know where they could obtain emergency contraception,
-            whether they qualified for financial assistance, how
-            confidentiality worked through insurance, or which providers were
-            actually available when they needed them.
+            They needed to understand where emergency contraception was
+            available, what it would cost, whether financial support existed,
+            how insurance might affect confidentiality, and which providers
+            could help within a narrow window of time: 72 hours.
           </p>
 
-          <p>
-            Information existed, services existed, and financial assistance
-            often existed—but they weren't connected in ways that helped people
-            when they needed them most.
-          </p>
+          <blockquote>
+            The information existed. The services existed. What was missing was
+            a clear path through them.
+          </blockquote>
 
           <p>
-            The challenge wasn't simply providing another source of
-            information. It was designing a service that helped people
-            confidently navigate an already complicated healthcare system during
-            one of the most time-sensitive moments they might experience.
+            The challenge was not creating another source of information. It was
+            helping people confidently navigate a fragmented system during one
+            of the most time-sensitive moments they might experience.
           </p>
         </>
       ),
     },
 
     {
-      title: "From Observation to Organization",
+      title: "Building the Service",
 
       figure: {
         image: "/projects/easy-ec/paper-flowchart.jpg",
-        alt: "Original paper decision-support tool",
+        alt:
+          "Original paper decision-support guide created for students, counselors, and health educators",
         caption:
-          "The first version of Easy EC was a paper decision-support guide used by students, counselors, and health educators.",
+          "Easy EC began as a paper decision-support guide for navigating emergency contraception access.",
       },
 
       body: (
         <>
           <p>
-            I created Easy EC to translate research into practical, real-world
-            impact.
+            What began as a paper guide gradually became a broader service
+            design challenge.
           </p>
 
           <p>
-            What began as a simple paper decision-support guide quickly became
-            something much larger: an opportunity to rethink how young people
-            accessed reproductive healthcare.
+            During graduate school at Yale, I chose to develop Easy EC in place
+            of a traditional thesis. I conducted focus groups and surveys,
+            founded a nonprofit organization, joined the inaugural Tsai Center
+            for Innovative Thinking accelerator, and partnered with a web
+            developer to turn the original guide into a digital platform.
           </p>
 
           <p>
-            Rather than pursuing a traditional thesis during graduate school at
-            Yale, I chose to build something that could directly improve
-            people's lives while learning how research becomes implementation.
-          </p>
-
-          <p>
-            I conducted focus groups and surveys, founded a nonprofit
-            organization, joined Yale's inaugural Tsai Center for Innovative
-            Thinking startup accelerator, studied computer science and
-            entrepreneurship, and partnered with a web developer to transform
-            the original paper tool into a scalable digital platform.
-          </p>
-
-          <p>
-            Throughout the project, I led community research, product strategy,
-            partnership development, and organizational implementation.
+            My role moved continuously between research, product strategy,
+            partnership development, fundraising, and implementation. Each
+            decision required balancing what people needed with what the
+            organization could realistically build and sustain.
           </p>
         </>
       ),
     },
 
     {
-      title: "From Research to Service Design",
+  title: "From Paper Guide to Digital Service",
 
-      figure: {
-        image: "/projects/easy-ec/wireframe-to-platform.jpg",
-        alt: "Evolution from sketches to the final platform",
-        caption:
-          "Research continuously informed the evolution of both the digital platform and the surrounding service model.",
-      },
+  figure: {
+    image: "/projects/easy-ec/wireframe-to-platform.jpg",
+    alt:
+      "Early information architecture and decision flow translating the paper guide into a digital experience",
+    caption:
+      "Early decision flows explored how community research could become a digital experience that was easier to navigate and easier to keep current.",
+  },
 
-      body: (
-        <>
-          <p>We didn't begin by designing technology.</p>
+  body: (
+    <>
+      <p>
+        The original paper guide proved that people valued clear,
+        decision-oriented support. The next challenge was making that
+        experience easier to use, easier to maintain, and capable of adapting
+        as healthcare programs, provider information, and state policies
+        changed.
+      </p>
 
-          <p>
-            We began by understanding what young people needed and how they
-            looked for help.
-          </p>
+      <p>
+        Rather than simply recreating the paper guide online, we redesigned 
+        the experience so people could receive personalized guidance based 
+        on their own circumstances while allowing the underlying information 
+        to remain current as providers, programs, and policies evolved.
+      </p>
 
-          <p>
-            Interviews and community engagement consistently revealed the same
-            pattern: many barriers were informational rather than medical.
-          </p>
+      <blockquote>
+        The goal wasn't to digitize a flowchart. It was to make a complex
+        healthcare system feel understandable.
+      </blockquote>
 
-          <p>
-            Those insights shaped everything from the platform's decision logic
-            to partnership strategy and implementation planning.
-          </p>
+      <p>
+        Throughout development, I conducted concept testing and usability
+        testing with potential users, using their feedback to refine navigation,
+        simplify decision paths, and improve the overall experience before
+        launch.
+      </p>
 
-          <p>
-            As the platform evolved, we continued learning alongside community
-            partners, using ongoing feedback to improve both the product and the
-            service surrounding it.
-          </p>
-        </>
-      ),
-    },
-
-    {
-      title: "Outcomes",
-
-      figure: {
-        image: "/projects/easy-ec/thorne-prize.jpg",
-        alt: "Easy EC receiving the Thorne Prize for Social Innovation",
-        caption:
-          "Easy EC received the Thorne Prize for Social Innovation while continuing to evolve through community partnerships.",
-      },
-
-      body: (
-        <>
-          <p>
-            Easy EC grew from a paper decision-support tool into an
-            award-winning nonprofit organization and digital platform designed
-            to improve access to emergency contraception.
-          </p>
-
-          <p>
-            The project demonstrated that research can extend far beyond
-            generating insights. It can also shape organizations, partnerships,
-            and entirely new services.
-          </p>
-
-          <p>
-            Beyond the technology itself, the project demonstrated how
-            human-centered research could shape products, partnerships, and
-            implementation strategies that better fit people's real lives.
-          </p>
-
-          <p>
-            The work received the Thorne Prize for Social Innovation and was
-            supported through Yale's Tsai Center for Innovative Thinking.
-          </p>
-        </>
-      ),
-    },
+      <p>
+        Because the platform was built around a database rather than static
+        content, community partners could keep provider hours, financial
+        assistance programs, and policy information current without redesigning
+        the experience itself.
+      </p>
+    </>
+  ),
+},
 
     {
-      title: "What This Changed for Me",
+      title: "What Stayed With Me",
 
       body: (
         <>
           <p>
-            Building Easy EC taught me that research creates the greatest impact
-            when it doesn't stop at recommendations.
+            Building Easy EC expanded my understanding of what research can ask
+            an organization to do.
           </p>
 
           <p>
-            Sometimes the next step is building the product. Other times it's
-            redesigning the surrounding service, changing organizational
-            processes, or bringing together partners who weren't previously
-            connected.
+            Sometimes an insight leads to a change in an existing product. In this case, it
+            pointed toward an entirely new service, organization, and network of
+            partnerships.
           </p>
 
           <p>
-            Since then, I've approached every research project with the same
-            mindset: understanding people well enough to help organizations make
-            better decisions—and, when needed, helping turn those decisions into
-            reality.
+            The experience taught me to think beyond recommendations and
+            consider what implementation will actually require: priorities,
+            resources, relationships, and the realities of the people expected
+            to use or deliver the solution.
+          </p>
+
+          <p>
+            And now, I carry that perspective into every project.
           </p>
         </>
       ),
