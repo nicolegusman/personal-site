@@ -16,7 +16,7 @@ const metaProject = {
   impact:
     "Guided product strategy across multiple product teams by uncovering the human behaviors that shape meaningful social connection.",
 
-  title: "Helping Organizations Understand Social Connection",
+  title: "Helping A Global Organization Understand Social Connection",
 
   subtitle:
     "Qualitative research that helped product teams understand the people behind the metrics.",
@@ -24,7 +24,7 @@ const metaProject = {
   introduction: (
     <>
       <p>
-        Over several years at Meta, I partnered with cross-functional teams
+        Over several years at Meta, I researched online social connection and partnered with cross-functional teams
         exploring a deceptively simple question:
       </p>
 
@@ -35,12 +35,6 @@ const metaProject = {
         </strong>
       </p>
 
-      <p>
-        Because this work spans multiple products and remains confidential,
-        this case study focuses on my research process, decision-making, and
-        the ways qualitative insight informed product strategy rather than
-        specific product features.
-      </p>
     </>
   ),
 
@@ -48,7 +42,7 @@ const metaProject = {
 
   sections: [
     {
-      title: "The Challenge",
+      title: "Understanding Social Connection",
 
       body: (
         <>
@@ -93,7 +87,7 @@ const metaProject = {
           <p>
             Individually, each study answered a different question. Together,
             they revealed a richer picture of how people formed, maintained,
-            and sometimes struggled to maintain meaningful relationships
+            and sometimes struggled with meaningful relationships
             through technology.
           </p>
         </>
@@ -138,7 +132,7 @@ const metaProject = {
           </p>
 
           <p>
-            I became less interested in producing insightful reports alone and
+            I became less interested in producing insightful decks alone, and
             more interested in helping teams understand those insights well
             enough to make thoughtful decisions.
           </p>

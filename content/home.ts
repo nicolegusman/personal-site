@@ -1,10 +1,7 @@
 export const home = {
   headline:
-  "Helping organizations understand people, so they can make better decisions",
- 
-  subtitle:
-    "Research-driven strategy • Product & service design",
+    "Helping organizations understand what people experience before deciding what to build or change",
 
   introduction:
-    "Over the past decade, I've partnered with organizations across technology, healthcare, and social innovation better understand the people they serve — and translate those insights into better product and organizational decisions.",
+    "Over the past decade, I've worked across technology, healthcare, and social innovation - helping teams make thoughtful decisions by first understanding the people who those decisions affect.",
 };

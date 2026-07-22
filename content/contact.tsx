@@ -3,14 +3,11 @@ const contact = {
 
   introduction: (
     <>
-      <p>
-        Thanks for taking the time to explore my work.
-      </p>
 
       <p>
-        I'm always happy to talk with people who are interested in
+        I'm always excited to talk with people who are interested in
         understanding people, improving systems, building thoughtful
-        technology, or designing products and services that better fit real
+        technology, or designing things that better fit real
         life.
       </p>
 

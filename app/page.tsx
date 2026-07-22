@@ -1,29 +1,39 @@
+import Link from "next/link";
+
 import PageContainer from "@/components/PageContainer";
 import { home } from "@/content/home";
+
 import styles from "./page.module.css";
 
 export default function Home() {
   return (
     <PageContainer>
-     <h1 className={styles.title}>
-        Helping organizations understand{" "}
-        <span className={styles.emphasis}>people</span>, so they can make better
-        decisions.
-    </h1>
+      <main className={styles.hero}>
+        <p className={styles.eyebrow}>
+          UX Research · Strategy · Service Design
+        </p>
 
-      <p className={styles.subtitle}>
-        {home.subtitle}
-      </p>
+        <h1 className={styles.title}>
+          Helping organizations understand{" "}
+          <span className={styles.emphasis}>what people experience</span> before deciding what
+          to build or change
+        </h1>
 
-      <p className={styles.introduction}>
-        {home.introduction}
-      </p>
+        <p className={styles.subtitle}>
+          {home.subtitle}
+        </p>
 
-      <a href="/work" className={styles.scrollCue}>
-  <span>Selected Work</span>
-  <span className={styles.arrow}>↓</span>
-</a>
+        <p className={styles.introduction}>
+          {home.introduction}
+        </p>
 
+        <Link href="/work" className={styles.scrollCue}>
+          <span>Selected Work</span>
+          <span className={styles.arrow} aria-hidden="true">
+            ↓
+          </span>
+        </Link>
+      </main>
     </PageContainer>
   );
 }

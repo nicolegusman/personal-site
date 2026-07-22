@@ -24,25 +24,16 @@ const easyEcProject = {
     <>
       <p>
         While working as a health educator, I realized that the young people weren&apos;t struggling because emergency
-        contraception resources didn&apos;t exist. They were struggling because finding
-        and accessing it could be confusing, expensive, and time-sensitive.
+        contraception resources didn&apos;t exist. They were struggling because accessing it was confusing and time-sensitive.
       </p>
 
       <p>
-        Insurance, confidentiality, transportation, pharmacy hours, eligibility,
-        cost, and complex regulations all shaped what someone could realistically
-        do next.
+        I initially created a paper guide to help young people navigate the landscape. 
+        As more people began relying on it, I realized:
       </p>
 
       <p>
-        I initially created a paper guide to help students, counselors, and
-        health educators navigate those decisions. As more people began relying
-        on it, I realized the opportunity wasn&apos;t simply to improve the
-        handout.
-      </p>
-
-      <p>
-        <strong>It was to redesign the experience around people&apos;s real lives.</strong>
+        <strong>There was an opportunity to redesign the experience around people&apos;s real lives.</strong>
       </p>
     </>
   ),
@@ -51,7 +42,7 @@ const easyEcProject = {
 
   sections: [
     {
-      title: "Challenge",
+      title: "Navigating Healthcare as a Teen",
 
       body: (
         <>
@@ -63,18 +54,19 @@ const easyEcProject = {
           <p>
             They needed to understand where emergency contraception was
             available, what it would cost, whether financial support existed,
-            how insurance might affect confidentiality, and which providers
-            could help within a narrow window of time: 72 hours.
+            how insurance might affect confidentiality, and complex regulation 
+            within a narrow window of time: 72 hours.
           </p>
 
           <blockquote>
-            The information existed. The services existed. What was missing was
-            a clear path through them.
+            The information existed. The services existed. 
+            There wasn't a clear path through them, though.
           </blockquote>
 
           <p>
             The challenge was not creating another source of information. It was
-            helping people confidently navigate a fragmented system during one
+            helping young people confidently navigate a fragmented healthcare system 
+            (often for the first time) during one
             of the most time-sensitive moments they might experience.
           </p>
         </>

@@ -32,7 +32,7 @@ export const work: {
 
       role: "User Experience Researcher",
 
-      title: "Helping A Global Organization Understand Social Connection",
+      title: "Helping An Organization Understand Social Connection",
 
       subtitle:
       "Conducting qualitative research that informed product strategy across experiences used by billions of people.",
@@ -56,7 +56,7 @@ While product metrics could tell us what people were doing, our research focused
 
       role: "Founder & Executive Director",
 
-      title: "Helping Young People Navigate Reproductive Healthcare",
+      title: "Helping Young People Navigate Healthcare",
 
       subtitle:
         "Founding a nonprofit that transformed user research into a more accessible reproductive healthcare service.",    },
