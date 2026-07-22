@@ -20,9 +20,11 @@ export default function Section({
 }: SectionProps) {
   return (
     <section className={styles.section}>
-      <h2 className={styles.title}>
-        {title}
-      </h2>
+      <header className={styles.header}>
+        <h2 className={styles.title}>
+          {title}
+        </h2>
+      </header>
 
       {figure && (
         <Figure

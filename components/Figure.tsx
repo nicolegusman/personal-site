@@ -14,13 +14,16 @@ export default function Figure({
 }: FigureProps) {
   return (
     <figure className={styles.figure}>
-      <Image
-        src={image}
-        alt={alt}
-        width={1400}
-        height={900}
-        className={styles.image}
-      />
+      <div className={styles.imageFrame}>
+        <Image
+          src={image}
+          alt={alt}
+          width={1600}
+          height={1000}
+          sizes="(max-width: 700px) calc(100vw - 2rem), 52rem"
+          className={styles.image}
+        />
+      </div>
 
       {caption && (
         <figcaption className={styles.caption}>

@@ -32,7 +32,7 @@ export const work: {
 
       role: "User Experience Researcher",
 
-      title: "Helping Organizations Understand Social Connection",
+      title: "Helping A Large Organization Understand Social Connection",
 
       subtitle:
       "Conducting qualitative research that informed product strategy across experiences used by billions of people.",

@@ -1,6 +1,7 @@
 export const home = {
   headline:
   "Helping organizations understand people, so they can make better decisions",
+ 
   subtitle:
     "Research-driven strategy • Product & service design",
 

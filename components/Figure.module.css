@@ -1,20 +1,53 @@
 .figure {
-  margin: 3rem 0;
+  width: min(52rem, calc(100vw - 4rem));
+
+  margin: 1rem 0 4rem 50%;
+
+  transform: translateX(-50%);
+}
+
+.imageFrame {
+  overflow: hidden;
+
+  border: 1px solid rgba(47, 47, 47, 0.08);
+  border-radius: 18px;
+
+  background: var(--surface);
 }
 
 .image {
-  width: 100%;
-  height: auto;
   display: block;
 
-  border-radius: 14px;
+  width: 100%;
+  height: auto;
 }
 
 .caption {
-  margin-top: 0.9rem;
+  max-width: 40rem;
 
-  font-size: 0.9rem;
-  line-height: 1.6;
+  margin: 1rem 0 0;
 
-  color: #777;
+  color: var(--text-muted);
+
+  font-size: 0.84rem;
+
+  line-height: 1.65;
+}
+
+@media (max-width: 700px) {
+  .figure {
+    width: 100%;
+
+    margin: 0 0 3rem;
+
+    transform: none;
+  }
+
+  .imageFrame {
+    border-radius: 14px;
+  }
+
+  .caption {
+    font-size: 0.8rem;
+  }
 }

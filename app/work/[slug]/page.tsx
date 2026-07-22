@@ -23,10 +23,8 @@ export default async function ProjectPage({ params }: Props) {
 
   return (
     <PageContainer>
-      <article>
-
+      <article className={styles.article}>
         <div className={styles.heroInner}>
-
           <header className={styles.hero}>
             <p className={styles.eyebrow}>
               {project.organization}
@@ -41,7 +39,7 @@ export default async function ProjectPage({ params }: Props) {
             </p>
 
             {project.methods && (
-              <>
+              <div className={styles.methodsSection}>
                 <p className={styles.methodsLabel}>
                   Research Methods
                 </p>
@@ -56,7 +54,7 @@ export default async function ProjectPage({ params }: Props) {
                     </span>
                   ))}
                 </div>
-              </>
+              </div>
             )}
           </header>
 
@@ -65,7 +63,6 @@ export default async function ProjectPage({ params }: Props) {
               {project.introduction}
             </div>
           )}
-
         </div>
 
         <main className={styles.content}>
@@ -78,7 +75,6 @@ export default async function ProjectPage({ params }: Props) {
             />
           ))}
         </main>
-
       </article>
     </PageContainer>
   );
