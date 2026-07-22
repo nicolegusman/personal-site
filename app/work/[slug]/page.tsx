@@ -15,12 +15,12 @@ type Props = {
 export default async function ProjectPage({ params }: Props) {
   const { slug } = await params;
 
-  const project = projects[slug];
+  if (!(slug in projects)) {
+  notFound();
+}
 
-  if (!project) {
-    notFound();
-  }
-
+const project = projects[slug as keyof typeof projects];
+  
   return (
     <PageContainer>
       <article className={styles.article}>
@@ -67,12 +67,12 @@ export default async function ProjectPage({ params }: Props) {
 
         <main className={styles.content}>
           {project.sections.map((section) => (
-            <Section
-              key={section.title}
-              title={section.title}
-              figure={section.figure}
-              body={section.body}
-            />
+          <Section
+            key={section.title}
+            title={section.title}
+            figure={"figure" in section ? section.figure : undefined}
+            body={section.body}
+          />
           ))}
         </main>
       </article>

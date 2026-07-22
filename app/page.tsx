@@ -14,14 +14,10 @@ export default function Home() {
         </p>
 
         <h1 className={styles.title}>
-          Helping organizations understand{" "}
-          <span className={styles.emphasis}>what people experience</span> before deciding what
-          to build or change
+          Helping organizations understand what{" "}
+          <span className={styles.emphasis}>people experience</span> before
+          deciding what to build or change.
         </h1>
-
-        <p className={styles.subtitle}>
-          {home.subtitle}
-        </p>
 
         <p className={styles.introduction}>
           {home.introduction}
@@ -29,6 +25,7 @@ export default function Home() {
 
         <Link href="/work" className={styles.scrollCue}>
           <span>Selected Work</span>
+
           <span className={styles.arrow} aria-hidden="true">
             ↓
           </span>
