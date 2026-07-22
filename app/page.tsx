@@ -5,9 +5,11 @@ import styles from "./page.module.css";
 export default function Home() {
   return (
     <PageContainer>
-      <h1 className={styles.title}>
-        {home.headline}
-      </h1>
+     <h1 className={styles.title}>
+        Helping organizations understand{" "}
+        <span className={styles.emphasis}>people</span>, so they can make better
+        decisions.
+    </h1>
 
       <p className={styles.subtitle}>
         {home.subtitle}

@@ -1,0 +1,135 @@
+.wrapper {
+  max-width: 60rem;
+  margin: 0 auto;
+}
+
+.header {
+  max-width: 46rem;
+
+  margin: 0 auto 4.5rem;
+
+  padding: 0 1.5rem;
+
+  text-align: center;
+}
+
+.kicker {
+  margin: 0 0 1rem;
+
+  text-align: center;
+
+  font-size: 0.82rem;
+  font-weight: 700;
+
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+
+  color: var(--accent);
+}
+
+.title {
+  max-width: 15ch;
+
+  margin: 0 auto 1.25rem;
+
+  font-size: clamp(2.4rem, 4.5vw, 3.5rem);
+
+  line-height: 1.04;
+
+  letter-spacing: -0.04em;
+
+  text-wrap: balance;
+}
+
+.intro {
+  max-width: 34rem;
+
+  margin: 0 auto;
+
+  text-align: center;
+
+  font-size: 1.08rem;
+
+  line-height: 1.75;
+
+  color: var(--text-muted);
+}
+
+/* ------------------------------------
+   Framework
+------------------------------------- */
+
+.frameworkShell {
+  position: relative;
+
+  max-width: 52rem;
+
+  margin: 0 auto;
+
+  padding: 3rem 2.5rem;
+
+  border: 1px solid var(--border);
+
+  border-radius: 2rem;
+
+  background: var(--background);
+}
+
+.stage {
+  max-width: 42rem;
+
+  margin: 0 auto;
+
+  padding: 2.75rem 2.75rem;
+
+  border-radius: 1.75rem;
+
+  background: #fbfaf8;
+
+  border: 1px solid rgba(47, 47, 47, 0.08);
+
+  box-shadow:
+    0 8px 24px rgba(0, 0, 0, 0.025);
+
+  text-align: center;
+
+  transition:
+    transform 180ms ease,
+    box-shadow 180ms ease;
+}
+
+.stage:hover {
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 14px 36px rgba(0, 0, 0, 0.04);
+}
+
+/* ------------------------------------
+   Flow arrows
+------------------------------------- */
+
+.arrow {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 0.35rem;
+
+  margin: 0.75rem 0;
+}
+
+.arrowLine {
+  width: 1px;
+  height: 18px;
+
+  background: rgba(184, 111, 83, 0.35);
+}
+
+.arrow span {
+  color: var(--accent);
+
+  font-size: 1.8rem;
+
+  line-height: 1;
+}

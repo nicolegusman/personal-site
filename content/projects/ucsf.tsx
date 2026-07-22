@@ -16,10 +16,10 @@ const ucsfProject = {
   impact:
     "Improved shared decision-making by translating patient research into digital tools, clinical workflows, and implementation strategies.",
 
-  title: "Supporting Better Patient Experiences",
+  title: "Helping Patients Have Better Healthcare Conversations",
 
   subtitle:
-    "Using mixed-methods research and service design to strengthen shared healthcare decision-making.",
+    "Using mixed-methods research and service design to improve shared decision-making in healthcare",
 
   introduction: (
     <>

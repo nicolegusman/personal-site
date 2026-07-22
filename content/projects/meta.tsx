@@ -15,13 +15,12 @@ const metaProject = {
   impact:
     "Guided product strategy across multiple product teams by uncovering the human behaviors that shape meaningful social connection.",
 
-  title: "Facilitating Human Connection at Scale",
+    title: "Helping Organizations Understand Social Connection",
 
-  subtitle:
-  "Using strategic qualitative research to help product teams develop tools that deepen meaningful social connection.",
-
-introduction: (
-  <>
+    subtitle:
+    "Conducting qualitative research that informed product strategy across experiences used by billions of people.",
+    introduction: (
+      <>
     <p>
       Over several years at Meta, I partnered with cross-functional teams
       across multiple research initiatives exploring how people form,

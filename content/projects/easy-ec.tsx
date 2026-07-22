@@ -15,12 +15,12 @@ const easyEcProject = {
   impact:
     "Founded an award-winning nonprofit and digital platform that improved access to reproductive healthcare through human-centered design.",
 
-  title: "Designing Around People's Real Lives",
+  title: "Helping Young People Navigate Reproductive Healthcare",
 
   subtitle:
-    "Using research, service design, and community partnerships to improve access to reproductive healthcare.",
+  "Founding a nonprofit that transformed user research into a more accessible reproductive healthcare service.",
 
-  introduction: (
+introduction: (
     <>
       <p>
         Many young people weren't struggling because emergency contraception

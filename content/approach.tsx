@@ -10,102 +10,36 @@ const approach = {
 
       <p>
         People usually make sense once we understand their goals, constraints,
-        relationships, and everyday realities. My work is centered on helping
-        organizations develop that understanding—and use it to make better
-        decisions.
+        relationships, and everyday lives. I help organizations build that
+        understanding and turn it into decisions people can confidently act on.
       </p>
     </>
   ),
 
-  sections: [
+  principles: [
     {
-      title: "Innovation Begins with Understanding",
-
-      body: (
-        <>
-          <p>
-            Every behavior tells us something.
-          </p>
-
-          <p>
-            A workaround. An abandoned feature. A missed appointment. An
-            unexpected choice.
-          </p>
-
-          <p>
-            These aren't simply problems to fix. They're clues about how people
-            experience the world—and where our assumptions no longer match
-            reality.
-          </p>
-
-          <p>
-            Research helps close that gap—not by asking people to change who
-            they are, but by helping organizations understand them well enough
-            to design better products, services, and systems.
-          </p>
-        </>
-      ),
+      number: "01",
+      title: "Start with people.",
+      summary:
+        "I begin by understanding the people who will use, deliver, or be affected by a product or service.",
+      body:
+        "Unexpected workarounds often reveal assumptions that no longer match reality. I look for those signals before teams invest in solutions.",
     },
-
     {
-      title: "Making Research Useful",
-
-      body: (
-        <>
-          <p>
-            I think a lot about how people experience research inside
-            organizations.
-          </p>
-
-          <p>
-            Who will actually read it? What will they remember? Will it change
-            how they think—or simply become another presentation in a shared
-            drive?
-          </p>
-
-          <p>
-            That's why I enjoy experimenting with different ways of
-            communicating research—from workshops and visual frameworks to
-            interactive experiences like board games.
-          </p>
-
-          <p>
-            The goal isn't simply to share findings. It's to create shared
-            understanding that leads to better decisions.
-          </p>
-        </>
-      ),
+      number: "02",
+      title: "Make research accessible.",
+      summary:
+        "I shape research so different stakeholders can quickly understand, remember, and use it.",
+      body:
+        "The format changes with the audience, but the goal stays the same: help people quickly understand what matters.",
     },
-
     {
-      title: "A Practical Philosophy",
-
-      body: (
-        <>
-          <p>
-            I don't believe understanding people is about becoming more
-            persuasive.
-          </p>
-
-          <p>
-            I think it's about becoming more thoughtful.
-          </p>
-
-          <p>
-            When organizations understand people's goals, constraints, and
-            everyday realities a little better, they make better decisions.
-            Sometimes those decisions are small. Sometimes they're strategic.
-          </p>
-
-          <p>
-            Either way, small improvements have a way of adding up.
-          </p>
-
-          <p>
-            That's the work I hope to spend my career doing.
-          </p>
-        </>
-      ),
+      number: "03",
+      title: "Make recommendations actionable.",
+      summary:
+        "I prioritize recommendations that fit the team's goals, constraints, and ability to act.",
+      body:
+        "I consider tradeoffs and implementation from the beginning so recommendations are realistic about what can happen next.",
     },
   ],
 };

@@ -22,7 +22,7 @@ export const work: {
   title: "Selected Work",
 
   introduction:
-  "I've worked across technology, healthcare, and nonprofit innovation, but the work has remained consistent: helping organizations better understand the people they serve so they can make better decisions. These projects show what that work looks like in practice.",  
+  "I've helped organizations understand people in very different contexts, but the work has always centered on turning research into better decisions and less friction. Explore three examples below.",  
   
   projects: [
     {
@@ -32,10 +32,10 @@ export const work: {
 
       role: "User Experience Researcher",
 
-      title: "Facilitating Human Connection at Scale",
+      title: "Helping Organizations Understand Social Connection",
 
       subtitle:
-        "Using qualitative research to shape products that strengthen social connection.",
+      "Conducting qualitative research that informed product strategy across experiences used by billions of people.",
     
 summary:
   "At Meta, I partnered with product teams to better understand the behaviors, motivations, and emotional needs underlying social connection — and translate those insights into product strategy.",
@@ -56,10 +56,10 @@ While product metrics could tell us what people were doing, our research focused
 
       role: "Founder & Executive Director",
 
-      title: "Designing Around People's Real Lives",
+      title: "Helping Young People Navigate Reproductive Healthcare",
 
-subtitle:
-  "Founding a nonprofit to translate research into better access to reproductive healthcare.",    },
+      subtitle:
+        "Founding a nonprofit that transformed user research into a more accessible reproductive healthcare service.",    },
 
     {
       slug: "ucsf",
@@ -68,10 +68,10 @@ subtitle:
 
       role: "Research Project Manager",
 
-      title: "Improving Patient Experiences",
+      title: "Helping Patients Have Better Conversations with Providers",
 
       subtitle:
-        "Using mixed-methods research and service design to strengthen shared healthcare decision-making.",
+        "Using mixed-methods research and human-centered design to improve shared decision-making in healthcare.",
     },
   ],
 };
