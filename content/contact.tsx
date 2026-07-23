@@ -1,26 +1,13 @@
 const contact = {
   title: "Contact",
 
-  introduction: (
-    <>
-
-      <p>
-        I'm always excited to talk with people who are interested in
-        understanding people, improving systems, building thoughtful
-        technology, or designing things that better fit real
-        life.
-      </p>
-
-      <p>
-        Whether you're hiring, exploring a collaboration, or simply want to
-        exchange ideas, I'd love to connect.
-      </p>
-
-      <p>
-        After all, every interesting project begins with a good conversation.
-      </p>
-    </>
-  ),
+ introduction: (
+  <>
+    <p>
+      The best projects usually begin with curiosity and a good conversation.  If you'd like to start one, I'd love to hear from you.
+    </p>
+  </>
+),
 
   email: "nicole.gusman@aya.yale.edu",
 

@@ -1,10 +1,11 @@
 import Link from "next/link";
+
 import styles from "./Navigation.module.css";
 
 export default function Navigation() {
   return (
     <header className={styles.header}>
-      <nav className={styles.nav}>
+      <nav className={styles.nav} aria-label="Primary navigation">
         <Link href="/" className={styles.brand}>
           Nico Gusman
         </Link>

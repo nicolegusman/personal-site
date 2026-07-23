@@ -15,8 +15,8 @@ export default function Home() {
 
         <h1 className={styles.title}>
           Helping organizations understand what{" "}
-          <span className={styles.emphasis}>people experience</span> before
-          deciding what to build or change.
+          <span className={styles.emphasis}>people are experiencing</span> before
+          deciding what to build or change
         </h1>
 
         <p className={styles.introduction}>
