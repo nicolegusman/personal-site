@@ -4,16 +4,16 @@ const contact = {
  introduction: (
   <>
     <p>
-      The best projects usually begin with curiosity and a good conversation.  If you'd like to start one, I'd love to hear from you.
+      My favorite projects usually begin with curiosity and a good conversation.  If you'd like to start one, I'd love to hear from you.
     </p>
   </>
 ),
 
-  email: "nicole.gusman@aya.yale.edu",
+  email: "hello@nicogusman.com",
 
   linkedin: "https://linkedin.com/in/nicolegusman",
 
-  resume: "/resume.pdf",
+  resume: "/Nico_Gusman_Resume.pdf",
 
   updated: "July 2026",
 };
